@@ -7,7 +7,6 @@ namespace WordCounter.Models
   {
     private string _sentence;
     private string _chosenWord;
-    //private int _wordTotal;
 
     public RepeatCounter (string sentence, string chosenWord)
     {
@@ -24,32 +23,54 @@ namespace WordCounter.Models
       return _chosenWord;
     }
 
-    public void SetSentence(string newSentence)
+    // public void SetSentence(string newSentence)
+    // {
+    //   _sentence=newSentence;
+    // }
+    //
+    // public void SetChosenWord(string newChosenWord){
+    //   _chosenWord=newChosenWord;
+    // }
+
+
+    // public static int PerformWordCount()
+    // {
+    //   int wordTotal=0;
+    //
+    //   char[] delimiterChars = { ' ', ',', '.', ':', '!', '\t' };
+    //   string[] words=_sentence.Split(delimiterChars);
+    //
+    //   for(int x=0; x<words.Length; x++)
+    //   {
+    //     if (words[x]==_chosenWord){
+    //       wordTotal++;
+    //     } else{}
+    //   }
+    //
+    //   Console.WriteLine("word total is: "+wordTotal);
+    //   Console.WriteLine(_sentence);
+    //   return wordTotal;
+    // }
+
+    public static int PerformWordCount(RepeatCounter newRepeatCounter)
     {
-      _sentence=newSentence;
-    }
+      string sentence=newRepeatCounter.GetSentence();
+      string chosenWord=newRepeatCounter.GetChosenWord();
 
-    public string SetChosenWord(string newChosenWord){
-      return _chosenWord=newChosenWord;
-    }
-
-
-    public int PerformWordCount()
-    {
       int wordTotal=0;
 
-      char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
-      string[] words=_sentence.Split(delimiterChars);
+      char[] delimiterChars = { ' ', ',', '.', ':', '!', '\t' };
+      string[] words=sentence.Split(delimiterChars);
 
       for(int x=0; x<words.Length; x++)
       {
-        if (words[x]==_chosenWord){
+        if (words[x]==chosenWord){
           wordTotal++;
         } else{}
       }
 
       Console.WriteLine("word total is: "+wordTotal);
-      Console.WriteLine(_sentence);
+      Console.WriteLine(sentence);
       return wordTotal;
     }
   }
