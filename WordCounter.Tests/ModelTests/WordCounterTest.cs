@@ -36,5 +36,11 @@ namespace WordCounter.Tests
       RepeatCounter testWordCounter = new RepeatCounter("Happy Birthday", "Happy");
       Assert.AreEqual(1, testWordCounter.PerformWordCount());
     }
+    [TestMethod]
+    public void HappyHappyBirthdaytoHappy_Return_2()
+    {
+      RepeatCounter testWordCounter = new RepeatCounter("Happy Happy Birthday", "Happy");
+      Assert.AreEqual(2, testWordCounter.PerformWordCount());
+    }
   }
 }
