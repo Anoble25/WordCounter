@@ -7,11 +7,13 @@ namespace WordCounter.Models
   {
     private string _sentence;
     private string _chosenWord;
+    private int _wordCount;
 
     public RepeatCounter (string sentence, string chosenWord)
     {
       _sentence=sentence;
       _chosenWord=chosenWord;
+      _wordCount=0;
     }
 
     public string GetSentence()
@@ -23,34 +25,13 @@ namespace WordCounter.Models
       return _chosenWord;
     }
 
-    // public void SetSentence(string newSentence)
-    // {
-    //   _sentence=newSentence;
-    // }
-    //
-    // public void SetChosenWord(string newChosenWord){
-    //   _chosenWord=newChosenWord;
-    // }
+    public int GetWordCount(){
+      return _wordCount;
+    }
 
-
-    // public static int PerformWordCount()
-    // {
-    //   int wordTotal=0;
-    //
-    //   char[] delimiterChars = { ' ', ',', '.', ':', '!', '\t' };
-    //   string[] words=_sentence.Split(delimiterChars);
-    //
-    //   for(int x=0; x<words.Length; x++)
-    //   {
-    //     if (words[x]==_chosenWord){
-    //       wordTotal++;
-    //     } else{}
-    //   }
-    //
-    //   Console.WriteLine("word total is: "+wordTotal);
-    //   Console.WriteLine(_sentence);
-    //   return wordTotal;
-    // }
+    public void SetWordCount(int newWordCount){
+      _wordCount=newWordCount;
+    }
 
     public static int PerformWordCount(RepeatCounter newRepeatCounter)
     {
@@ -71,6 +52,7 @@ namespace WordCounter.Models
 
       Console.WriteLine("word total is: "+wordTotal);
       Console.WriteLine(sentence);
+      newRepeatCounter.SetWordCount(wordTotal);
       return wordTotal;
     }
   }

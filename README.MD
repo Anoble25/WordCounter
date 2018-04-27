@@ -17,12 +17,13 @@ _A website in MVC that uses a method to return how frequently a word appears in 
 ## Specifications
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **User enters a single character string. User enters a second matching single character string. The value 0 is returned.** | "A", "b" | "0"|
+| **User enters a single character string. User enters a second matching single character string. The value 0 is returned.** | "A", "B" | "0"|
 | **User enters a single character string. User enters a second matching single character string. The value 1 is returned.** | "A", "A" | "1"|
 | **User enters a multiple character string. User enters a second non-matching string. The value 0 is returned.** | "Ab", "C" | "0"|
 | **User enters a multiple character string. User enters a second matching string. The value 1 is returned.** | "Happy", "Happy" | "1"|
 | **User enters a multiple word string. User enters a second word that appears in the first string. The value 1 is returned.** | "Happy Birthday", "Happy" | "1"|
-| **User enters a multiple word string. User enters a second word that appears in the first string multiple times. The number of times it appears is returned.** | "Happy Happy Birthday Happy", "Happy" | "3"|
+| **User enters a multiple word string. User enters a second word that appears in the first string multiple times. The number of times it appears is returned.** | "Happy Happy Birthday", "Happy" | "3"|
+| **User enters a multiple word string with punctuation other than spaces. User enters a second word that appears in the first string multiple times. The number of times it appears is returned.** | "Happy! Happy! Birthday", "Happy" | "3"|
 
 ## Known Bugs
 

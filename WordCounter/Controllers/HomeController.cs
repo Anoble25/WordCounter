@@ -11,7 +11,7 @@ namespace WordCounter.Controllers
     [HttpGet("/")]
     public ActionResult Index()
     {
-      return View();
+      return View("CreateForm");
     }
 
     [HttpGet("/wordcounter/new")]
@@ -25,9 +25,7 @@ namespace WordCounter.Controllers
     {
       RepeatCounter newInputInfo= new RepeatCounter (Request.Form["sentence"], Request.Form["chosenWord"]);
       int output=RepeatCounter.PerformWordCount(newInputInfo);
-      Console.WriteLine(output);
-      return View("Index", output);
+      return View("Index", newInputInfo);
     }
-
   }
 }
