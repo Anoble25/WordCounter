@@ -11,7 +11,7 @@ _A website in MVC that uses a method to return how frequently a word appears in 
 
 * _Clone or download the repository._
 * _Install C# with the .NET framework_
-* _Locate and change to the Address Book directory in the terminal_
+* _Locate and change to the WordCounter folder in the WordCounter directory using the terminal_
 * _Run Dotnet Restore then Dotnet Run commands in the terminal_
 
 ## Specifications
