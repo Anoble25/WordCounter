@@ -6,22 +6,11 @@
     <title>WordCounter</title>
   </head>
   <body>
-    <h1>Output Sentence</h1>
+    <h1>Word Counter</h1>
 
-    <p>@Model</p>
+    <p>The word appears @Model  times in this sentence</p>
 
-    <p><a href="/wordcounter/new">Add new sentence</a></p>
-    @* <ul>
-      @foreach(var contact in Model)
-      {
-        <li><a href='/contacts/@contact.GetId()'>@contact.GetName()</a></li>
-      }
-    </ul>
-    <p><a href="/contacts/new">Add another contact</a></p>
-
-    <form action="/contacts/delete" method="post">
-      <button type="submit" name="button">Clear All Items</button>
-    </form> *@
+    <p><a href="/wordcounter/new">Click here to count the frequency of a word in a sentence</a></p>
 
   </body>
 </html>
