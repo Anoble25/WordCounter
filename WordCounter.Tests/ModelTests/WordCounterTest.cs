@@ -18,5 +18,11 @@ namespace WordCounter.Tests
       RepeatCounter testWordCounter = new RepeatCounter("A", "A");
       Assert.AreEqual(1, testWordCounter.PerformWordCount());
     }
+    [TestMethod]
+    public void ABtoC_Return_0()
+    {
+      RepeatCounter testWordCounter = new RepeatCounter("AB", "C");
+      Assert.AreEqual(0, testWordCounter.PerformWordCount());
+    }
   }
 }
