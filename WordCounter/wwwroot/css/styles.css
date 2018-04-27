@@ -1,0 +1,20 @@
+html{
+  background-color:blue;
+}
+
+
+
+.Box1{
+  background-color: black;
+  color:yellow;
+  align-self: center;
+}
+
+.please{
+  color: red;
+  background-color: black;
+  align-self: center;
+  position: fixed;
+  top:10%;
+  left:20%;
+}

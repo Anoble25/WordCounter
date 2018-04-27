@@ -50,8 +50,6 @@ namespace WordCounter.Models
         } else{}
       }
 
-      Console.WriteLine("word total is: "+wordTotal);
-      Console.WriteLine(sentence);
       newRepeatCounter.SetWordCount(wordTotal);
       return wordTotal;
     }
