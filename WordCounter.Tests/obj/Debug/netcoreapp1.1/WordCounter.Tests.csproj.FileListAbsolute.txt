@@ -12,3 +12,17 @@
 /Users/alexnoble/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.pdb
 /Users/alexnoble/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.dll
 /Users/alexnoble/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.pdb
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.deps.json
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.runtimeconfig.json
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.runtimeconfig.dev.json
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csproj.CoreCompileInputs.cache
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfo.cs
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.dll
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.pdb
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.dll
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.pdb
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.dll
+/Users/alex/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.pdb

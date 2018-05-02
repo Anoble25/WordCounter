@@ -7,3 +7,12 @@
 /Users/alexnoble/Desktop/WordCounter/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.pdb
 /Users/alexnoble/Desktop/WordCounter/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.dll
 /Users/alexnoble/Desktop/WordCounter/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.pdb
+/Users/alex/Desktop/WordCounter/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.deps.json
+/Users/alex/Desktop/WordCounter/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.runtimeconfig.json
+/Users/alex/Desktop/WordCounter/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.runtimeconfig.dev.json
+/Users/alex/Desktop/WordCounter/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.dll
+/Users/alex/Desktop/WordCounter/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.pdb
+/Users/alex/Desktop/WordCounter/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.csproj.CoreCompileInputs.cache
+/Users/alex/Desktop/WordCounter/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.AssemblyInfo.cs
+/Users/alex/Desktop/WordCounter/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.dll
+/Users/alex/Desktop/WordCounter/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.pdb
